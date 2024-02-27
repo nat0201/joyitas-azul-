@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+img{
+    width: 150px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:#c6d5ef ;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content:space-between;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: "Satisfy", cursive;
+    color:#8050ac ;
+
+}
+
+header ul li{
+    margin: 10px;
+}
+
+.contenedor{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    font-size: 30px;
+    font-family: "Satisfy", cursive;
+    color:#8050ac 
+    }
+
+    .caja{
+        display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: flex-start;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: center;
+            align-items: center;
+            padding: 10px;
+            
+        }    
+
+    .caja img{
+        border-radius: 5%;
+    }
+    
+    .caja h2{
+        font-size: 30px;
+    font-family: "Satisfy", cursive;
+    color:#8050ac 
+    }
+
+    .final{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color:#c6d5ef ;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content:space-between;
+    }
+
+    .final ul{
+        list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: "Satisfy", cursive;
+    color:#8050ac ;
+    }
+
+    .final ul li{
+        margin: 10px;
+    }
+
+   p{
+    font-size: 20px;
+    font-family: "Satisfy", cursive;
+    color:#8050ac 
+    
+   }
